@@ -1,0 +1,27 @@
+{
+  "name": "btc-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/rpc-server.js",
+    "Client": "node client/rpc-client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.3.2",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "hyperbee": "^2.24.2",
+    "hypercore": "^11.5.0",
+    "hyperswarm": "^4.11.5",
+    "lib-wallet": "github:tetherto/lib-wallet",
+    "lib-wallet-pay-btc": "github:tetherto/lib-wallet-pay-btc",
+    "lib-wallet-store": "github:tetherto/lib-wallet-store",
+    "wallet-seed-bip39": "github:tetherto/lib-wallet-seed-bip39"
+  }
+}
